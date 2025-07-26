@@ -1,17 +1,26 @@
 /* Header Styles */
-header {
-    display: flex;
-    justify-content: center;
+h1 {
+    padding: 15px;                 /* Spacing inside the box */
+    text-align: center;            /* Center the content horizontally */
+    margin: 0 auto;                /* Center container if needed */
+    width: fit-content;            /* Shrink to fit content */
+    border-radius: 15px 40px;           /* Optional: rounded corners */
+    border: 2px solid #333;        /* Optional: border for emphasis */
+    font-family:Verdana,Tahoma, sans-serif
 }
 
 /* Navigation styles */
 nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
     list-style: none;
     padding: 2%;
     margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 2px;
 }
 
 nav ul li a {
@@ -19,9 +28,13 @@ nav ul li a {
     color: white;
     padding: 8px 16px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 15px 40px;    
+    border: 2px solid #333;  
 }
 
+.nav.a.active {
+    opacity: 50%;
+}
 /* Page-specific navigation colors */
 .about-page nav ul li a {
     background: #f4b0f7;
@@ -38,6 +51,28 @@ nav ul li a {
 .contact-page nav ul li a {
     background: #4CAF50;
 }
+
+/* Page-specific h1 colors to match navigation */
+.home-page h1 {
+    background-color: #2a97f0;
+}
+
+.about-page h1 {
+    background-color: #f4b0f7;
+}
+
+.services-page h1 {
+    background-color: #e85bf5;
+}
+
+.portfolio-page h1 {
+    background-color: #223ddb;
+}
+
+.contact-page h1 {
+    background-color: #4CAF50;
+}
+
 
 /* Services page specific styles */
 .services-list {
