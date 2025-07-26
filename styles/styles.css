@@ -1,0 +1,59 @@
+/* Navigation styles */
+nav ul {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    padding: 2%;
+    margin: 0;
+}
+
+nav ul li a {
+    background: #2a97f0;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Page-specific navigation colors */
+.about-page nav ul li a {
+    background: #f4b0f7;
+    padding: 8px 8px;
+    border-radius: 2px;
+}
+
+.services-page nav ul li a {
+    background: #e85bf5;
+}
+
+.portfolio-page nav ul li a {
+    background: #223ddb;
+}
+
+.contact-page nav ul li a {
+    background: #4CAF50;
+}
+
+/* Services page specific styles */
+.services-list {
+    background: #e85bf5;
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    color: #333;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+}
