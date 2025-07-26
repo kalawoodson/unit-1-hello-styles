@@ -1,6 +1,13 @@
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: center;
+}
+
 /* Navigation styles */
 nav ul {
     display: flex;
+    justify-content: center;
     gap: 5px;
     list-style: none;
     padding: 2%;
@@ -18,8 +25,6 @@ nav ul li a {
 /* Page-specific navigation colors */
 .about-page nav ul li a {
     background: #f4b0f7;
-    padding: 8px 8px;
-    border-radius: 2px;
 }
 
 .services-page nav ul li a {
